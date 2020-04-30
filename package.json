@@ -1,0 +1,26 @@
+{
+  "name": "node-chat-app",
+  "version": "1.0.0",
+  "description": "Players char app with socket.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "author": "vinita asari",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "expect": "^1.20.2",
+    "express": "^4.16.3",
+    "mocha": "^5.2.0",
+    "moment": "^2.22.2",
+    "mongoose": "^5.9.10",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "nodemon": "^1.18.3"
+  }
+}
